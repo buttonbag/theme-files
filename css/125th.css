@@ -1,0 +1,905 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@font-face {
+  font-family: "DINPro-Cond";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "DINPro-Cond";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "DINPro";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Black.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Bold.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Medium.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Light.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot");
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed3119EE_5_0.eot");
+  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.ttf") format("truetype");
+  font-weight: 400;
+}
+html {
+  background: #ffffff;
+}
+
+body div.theme-125th {
+  font-size: 1.3rem;
+  background: #ffffff;
+  color: #565656;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+}
+
+.theme-125th p {
+  margin-bottom: 1.5em;
+  line-height: 2rem;
+}
+
+.theme-125th a {
+  color: #0057b7 !important;
+}
+
+.theme-125th #hero img {
+  max-width: 100%;
+}
+
+.theme-125th #hero .hero-container {
+  position: relative;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/12_CBB_002-alt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position-x: 0%;
+  background-position-y: 50%;
+  height: 550px;
+}
+
+.theme-125th #hero .hero-landing-container {
+  position: relative;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/13_CBB_005.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position-x: 0%;
+  background-position-y: 50%;
+  height: 350px;
+}
+
+.theme-125th #hero .hero-text-container-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 140px;
+  width: 767px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .theme-125th #hero .hero-text-container-overlay {
+    width: 100%;
+  }
+}
+.theme-125th #hero .hero-text-container {
+  background: #0e4174;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.theme-125th #hero h1 {
+  font-family: "DINPro-Cond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  padding-left: 140px;
+  text-shadow: 2px 2px 0px #083cba;
+  border: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .theme-125th #hero h1 {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 1075px) {
+  .theme-125th #hero .h2-internal {
+    padding-left: unset;
+  }
+}
+.theme-125th #intro img {
+  vertical-align: top;
+}
+
+.theme-125th #faces {
+  margin-top: -15px;
+}
+
+.theme-125th #faces h2 {
+  font-family: "DINPro-Cond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #0057b7;
+  font-size: 2.25rem;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.theme-125th #page-content h2 {
+  font-family: "DINPro-Cond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #0057b7;
+  font-size: 2.625rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.theme-125th .faces-image {
+  background-image: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/FJG-Depaul-Oct-2016-1009-sm.png");
+}
+
+@media screen and (min-width: 1075px) {
+  .theme-125th #tbl-members {
+    margin-left: 105px;
+  }
+
+  .theme-125th #tbl-members th {
+    min-width: 250px;
+  }
+}
+.theme-125th .smart-form label[for=ctl00_ctl63_g_7f9a6f9b_7bf2_4c88_bf3b_2838dc03a9c9_smrtfld_Title_ctl00_ctl00_TextField] {
+  margin-top: 17px !important;
+}
+
+.theme-125th .height550 {
+  height: 550px;
+}
+
+.theme-125th .height350 {
+  height: 350px;
+}
+
+.theme-125th .min-height260 {
+  min-height: 260px;
+}
+
+.theme-125th .background-blue {
+  background-color: #0057b7;
+}
+
+.theme-125th .text-white {
+  color: #ffffff;
+}
+
+.theme-125th .text-blue {
+  color: #0057b7;
+}
+
+.theme-125th .img-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.theme-125th .border-box {
+  border: 1px solid #0057b7;
+}
+
+.theme-125th .intro-content-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.theme-125th .btn-dpu {
+  font-family: "Roboto Condensed";
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-width: 1px;
+  color: #0057b7;
+  border-color: #0057b7;
+  border-radius: 0;
+  border-top: 0;
+  display: block;
+  padding: 12px;
+  line-height: 2.2rem;
+}
+
+.theme-125th .btn-dpu:hover {
+  background-color: #0057b7;
+  color: #ffffff !important;
+}
+
+.theme-125th .small-e {
+  font-size: 90% !important;
+}
+
+.theme-125th .m120-l {
+  margin-left: 120px;
+}
+
+/* Containers */
+.container-600,
+.container-900,
+.container-1080,
+.container-1200,
+.container-1366,
+.container-1920 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container,
+.container-1200 {
+  max-width: 1200px;
+}
+
+.container-1920 {
+  max-width: 1920px;
+}
+
+.container-1366 {
+  max-width: 1366px;
+}
+
+.container-1080 {
+  max-width: 1080px;
+}
+
+.container-900 {
+  max-width: 900px;
+}
+
+.container-600 {
+  max-width: 600px;
+}
+
+.table.style-vanilla {
+  color: #565656;
+}
+
+.table.style-vanilla td,
+.table.style-vanilla th {
+  padding: 1.1rem;
+  vertical-align: top;
+  border: 0;
+}
+
+.dpu-header {
+  background: #0057b7;
+  margin: auto;
+}
+
+.navbar {
+  border-radius: 0px;
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 0;
+}
+
+.navbar .navbar-toggle {
+  min-width: unset !important;
+}
+
+.navbar a {
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar .navbar-brand {
+  height: auto;
+}
+
+.navbar .navbar-brand img {
+  padding-left: 75px;
+  height: 44px;
+}
+
+@media screen and (max-width: 1075px) {
+  .navbar .navbar-brand img {
+    padding-left: 10px;
+    height: 34px !important;
+  }
+}
+.navbar .navbar-collapse {
+  box-shadow: none;
+  border: none;
+}
+
+@media screen and (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+}
+.navbar-nav {
+  margin-right: 65px;
+}
+
+.navbar-nav > li.nav-item {
+  margin-right: 30px;
+}
+
+.navbar-nav > li.nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.navbar-nav > li.nav-item > a.nav-link {
+  position: relative;
+  padding-left: 0;
+}
+
+.navbar-nav > li.nav-item > a.nav-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav > li.nav-item > a.nav-link:hover,
+.navbar-nav > li.nav-item > a.nav-link:focus {
+  background-color: transparent;
+}
+
+.navbar-nav > li.nav-item > a.nav-link:hover:after,
+.navbar-nav > li.nav-item > a.nav-link:focus:after {
+  width: calc(100% - 4px - 0.6em);
+}
+
+.navbar-nav > li.nav-item > a.nav-link:hover .fas,
+.navbar-nav > li.nav-item > a.nav-link:hover .fa,
+.navbar-nav > li.nav-item > a.nav-link:hover .svg-inline--fa,
+.navbar-nav > li.nav-item > a.nav-link:focus .fas,
+.navbar-nav > li.nav-item > a.nav-link:focus .fa,
+.navbar-nav > li.nav-item > a.nav-link:focus .svg-inline--fa {
+  transform: translate(4px, -0.13em);
+}
+
+.navbar-nav > li.nav-item > a.nav-link .fas,
+.navbar-nav > li.nav-item > a.nav-link .fa,
+.navbar-nav > li.nav-item > a.nav-link .svg-inline--fa {
+  margin-left: 4px;
+  font-size: 0.8em;
+  transform: translate(0, -0.13em);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav > li.nav-item > a.nav-link.active:after {
+  background: #0057b7;
+}
+
+/* -----------------------------
+Navigation
+----------------------------- */
+.navbar-toggle .icon-bar {
+  background: #fff;
+  display: block;
+}
+
+/* -----------------------------
+Animated Mobile Menu Link
+----------------------------- */
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  margin: 0;
+  padding: 8px;
+}
+
+.navbar-toggle:focus {
+  outline-color: #fff;
+}
+
+@media (min-width: 991.98px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 28px;
+  height: 3px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 6px;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: -2% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+@media screen and (max-width: 767.98px) {
+  .navbar-nav {
+    margin: 14px -24px 0;
+  }
+
+  .navbar-nav > li {
+    margin-bottom: 6px;
+  }
+
+  .navbar-nav > li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .navbar-nav > li > a {
+    padding: 15px 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar .navbar-brand img {
+    padding-left: 5px;
+  }
+
+  .navbar-toggle {
+    margin-bottom: 0;
+  }
+}
+footer {
+  margin: auto;
+  background-color: #0e4174;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+}
+
+.footer-custom {
+  padding: 20px 0 0 0;
+  font-family: "Source Sans Pro";
+}
+
+.footer-custom .footer--left {
+  text-align: left;
+}
+
+.footer-custom .footer--center {
+  text-align: center;
+}
+
+.footer-custom .footer--right {
+  text-align: right;
+}
+
+.footer-custom .logo {
+  height: 36px;
+}
+
+.footer-custom .logo-link {
+  display: block;
+}
+
+.footer-custom .text-logo {
+  font-family: "proxima-nova-condensed";
+  font-size: 2rem;
+}
+
+.footer-custom a {
+  color: #ffffff !important;
+}
+
+.footer-custom a:hover,
+.footer-custom a:focus {
+  text-decoration: none !important;
+}
+
+.footer-custom .list--social {
+  margin: 0 -10px;
+}
+
+.footer-custom .list--social li {
+  margin: -5px 5px 0 5px;
+}
+
+.footer-custom .list--social li a {
+  padding: 5px 5px;
+  display: block;
+}
+
+.footer-custom .list--social li a:hover svg,
+.footer-custom .list--social li a:focus svg {
+  fill: #ffffff;
+}
+
+.footer-custom .list--social .fab {
+  font-size: 2.5rem;
+}
+
+.footer-custom .list--social svg.svg-inline--fa {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-custom hr {
+  border-color: #ffffff;
+  margin: 50px 0 0 0;
+}
+
+.footer-custom ul.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-custom ul.navigation li {
+  padding-bottom: 2px;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer-custom ul.navigation a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-custom ul.navigation a:hover,
+.footer-custom ul.navigation a:focus {
+  color: #ffffff;
+}
+
+.copyright {
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Roboto Condensed" !important;
+}
+
+.copyright a {
+  color: #ffffff !important;
+}
+
+.copyright a:hover,
+.copyright a:focus {
+  color: #ffffff;
+}
+
+.copyright .editor-login {
+  float: right;
+}
+
+.border--top {
+  border-top: 1px solid #ffffff;
+}
+
+.copyright--nav ul {
+  list-style: none;
+  margin: 0 -6px;
+  padding: 0;
+}
+
+.copyright--nav ul li {
+  display: inline-block;
+  padding: 0 0 0 6px;
+  margin-left: -6px;
+}
+
+.copyright--nav ul li a {
+  display: inline-block;
+  padding: 0 6px;
+  border-right: 1px solid #ffffff;
+  line-height: 1;
+}
+
+.copyright--nav ul li:last-of-type {
+  padding-right: 0;
+}
+
+.copyright--nav ul li:last-of-type a {
+  border: none;
+}
+
+.list--social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list--social li {
+  display: inline-block;
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-custom .footer--right {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .footer-custom .footer--left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-custom ul.navigation li {
+    display: block;
+  }
+
+  .footer-custom ul.navigation li a {
+    display: inline-block;
+    padding: 6px;
+  }
+
+  .copyright--nav ul li {
+    display: block;
+    padding: 0;
+    margin-bottom: 2px;
+  }
+
+  .copyright--nav ul li a {
+    border: none;
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .copyright--nav ul li aa {
+    padding: 6px;
+  }
+}
+.smart-form {
+  border: 1px solid #0057b7;
+  padding: 30px;
+  padding-top: 15px;
+  border-radius: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #0057b7;
+}
+
+.smart-form h2 {
+  margin: 0px !important;
+}
+
+.smart-form legend {
+  padding-bottom: 0px;
+}
+
+.smart-form label {
+  font-family: "Roboto Condensed";
+  font-size: 1.3rem !important;
+  margin-bottom: 15px;
+  margin-top: 20px !important;
+}
+
+.smart-form label span.ms-formvalidation {
+  margin-right: 5px;
+  float: unset;
+}
+
+.smart-form textarea,
+.smart-form input {
+  border-radius: 0px;
+  border-color: #0057b7;
+}
+
+.smart-form textarea:focus-visible,
+.smart-form input:focus-visible {
+  border-radius: 0px;
+  border-color: #0057b7;
+  border-width: 2px;
+}
+
+.smart-form .smart-messages-container p {
+  font-family: "Roboto Condensed";
+  font-size: 1.3rem;
+  color: #565656;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.smart-form .smart-field-input input {
+  width: 50%;
+}
+
+.smart-form .smart-field-input input[type=text] {
+  height: 50px;
+}
+
+.smart-form .smart-field-input table {
+  margin-left: -5px;
+  margin-top: -8px;
+}
+
+.smart-form .smart-field-input .smart-field-description {
+  margin-bottom: 0px;
+}
+
+.smart-form .smart-field-input .smart-field-description .ms-metadata {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #565656;
+  width: 85%;
+}
+
+.smart-form .smart-field-input .smart-field-description {
+  max-width: 75%;
+}
+
+.smart-form .smart-radio input {
+  margin-top: 8px !important;
+  border-color: #0057b7;
+  width: 20px !important;
+  padding-left: 5px;
+  visibility: hidden;
+}
+
+.smart-form .smart-radio input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: 3px;
+  position: relative;
+  background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #0057b7;
+}
+
+.smart-form .smart-radio input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: 3px;
+  position: relative;
+  background-color: #0057b7;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #0057b7;
+}
+
+.smart-form .smart-radio label {
+  color: #565656;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+}
+
+.smart-form .smart-radio tr {
+  padding-right: 30px;
+}
+
+.smart-form textarea {
+  width: 75%;
+  min-height: 200px;
+  margin-bottom: 0px;
+}
+
+.smart-form .smart-field-button input {
+  font-family: "Roboto Condensed";
+  color: #af272f;
+  font-size: 1.25rem;
+  background-color: #ffffff !important;
+  border: 3px solid #af272f !important;
+  box-shadow: 5px 5px 0px -1px #af272f;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  transition: all 0.2s ease-in;
+  font-weight: 400;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  min-width: unset !important;
+  margin-left: 0px;
+}
+
+.smart-form .smart-field-button input:hover {
+  color: #ffffff;
+  background-color: #af272f !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  .smart-form textarea,
+.smart-form input[type=text] {
+    width: 100% !important;
+  }
+
+  .smart-form .smart-radio input[type=radio]:after {
+    top: -6px;
+  }
+
+  .smart-form .smart-radio input[type=radio]:checked:after {
+    top: -6px;
+  }
+
+  .smart-form .smart-field-input .smart-field-description {
+    max-width: unset;
+  }
+
+  .smart-form .smart-field-input table {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .smart-form .smart-radio input {
+    margin-top: -4px !important;
+  }
+
+  .smart-form .smart-radio label {
+    padding-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=125th.css.map */
