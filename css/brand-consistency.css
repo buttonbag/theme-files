@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@font-face {
+  font-family: "DINPro-Black";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Black.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Black.otf") format("opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Black.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Black.ttf") format("truetype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Black.svg#DINPro-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro-Condensed-Bold";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondBold.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondBold.otf") format("opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondBold.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.ttf") format("truetype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.svg#DINPro-CondBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro-Condensed-Medium";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondMedium?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondMedium.otf") format("opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondMedium.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondMedium.ttf") format("truetype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-CondMedium.svg#DINPro-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro.otf") format("opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro.ttf") format("truetype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro.svg#DINPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro-Condensed";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.otf") format("opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.ttf") format("truetype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/DINPro-Cond.svg#DINPro-Cond") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_2_0.eot");
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_2_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_2_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_2_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_2_0.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "proxima-nova-condensed";
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_5_0.eot");
+  src: url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_5_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_5_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_5_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/brand-consistency/PublishingImages/3119EE_5_0.ttf") format("truetype");
+  font-weight: 400;
+}
+.font-dinpro--black {
+  font-family: "DINPro-Black" !important;
+}
+
+.font-dinpro--condensed {
+  font-family: "DINPro-Condensed" !important;
+}
+
+body h2,
+body h3 {
+  font-family: "DINPro-Condensed-Bold", sans-serif !important;
+  line-height: 1.25 !important;
+}
+
+body h2 {
+  font-size: 2.625rem !important;
+  line-height: 3.125rem;
+}
+
+body h3 {
+  font-size: 2.25rem !important;
+  line-height: 2.625rem;
+}
+
+body p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #565656;
+  font-size: 21px;
+}
+
+footer a,
+.white {
+  color: #fff !important;
+}
+
+.red {
+  color: #af272f !important;
+}
+
+.blue {
+  color: #0057b7 !important;
+}
+
+.blueDark {
+  color: #0e4174 !important;
+}
+
+body .container-900,
+body .container-1080,
+body .container-1200,
+body .container-1366,
+body .container-1440 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.container-900 {
+  max-width: 900px;
+}
+
+.container-1200 {
+  max-width: 1200px;
+}
+
+.container-1366 {
+  max-width: 1366px;
+}
+
+.container-1440 {
+  max-width: 1440px;
+}
+
+p {
+  font-family: "Roboto Condensed";
+  color: #565656;
+  font-size: 1.3rem;
+}
+
+.ghostRed-cta,
+.ghostBlue-cta,
+.ghostBlueDark-cta {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif !important;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.2s ease-in;
+  display: inline-block;
+}
+
+.ghostRed-cta {
+  color: #af272f !important;
+  border: 3px solid #af272f;
+  box-shadow: 5px 5px 0px -1px #af272f;
+}
+
+.ghostBlue-cta {
+  color: #0057b7 !important;
+  border: 3px solid #0057b7;
+  box-shadow: 5px 5px 0px -1px #0057b7;
+}
+
+.ghostBlueDark-cta {
+  color: #0e4174 !important;
+  border: 3px solid #0e4174;
+  box-shadow: 5px 5px 0px -1px #0e4174;
+}
+
+.ghostRed-cta:hover,
+.ghostBlue-cta:hover,
+.ghostBlueDark-cta:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.ghostRed-cta:hover {
+  background: #af272f !important;
+}
+
+.ghostBlue-cta:hover {
+  background: #0057b7 !important;
+}
+
+.ghostBlueDark-cta:hover {
+  background: #0e4174 !important;
+}
+
+.blueBox {
+  background: #ffffff;
+  border: 1px solid #0057b7;
+  box-sizing: border-box;
+  padding: 1.6rem;
+}
+
+footer.footer-custom {
+  background: #0e4174 !important;
+}
+
+footer ul.underline {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul.underline li {
+  padding-bottom: 8px;
+}
+
+footer ul.underline li a {
+  text-decoration: underline;
+  transition: all 0.2s ease-in !important;
+}
+
+footer ul.underline li a:hover {
+  text-decoration: none;
+}
+
+footer h3 {
+  font-family: "proxima-nova-condensed", sans-serif !important;
+  font-size: 2rem !important;
+}
+
+footer p {
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #ffffff;
+}
+
+footer .copyright {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.background-blue {
+  background-color: rgba(0, 87, 183, 0.75);
+  background-blend-mode: hard-light;
+}
+
+#consistencyheader {
+  height: 550px;
+  background: url("https://resources.sptest16.depaul.edu/brand-consistency/publishingimages/header-background.jpg"), url("https://resources.sptest16.depaul.edu/brand-consistency/publishingimages/background-bar.png");
+  background-size: cover, contain;
+  background-position: center, bottom;
+  background-repeat: no-repeat, repeat-x;
+  background-blend-mode: overlay;
+  background-position-x: 25%, 100%;
+  background-position-y: 50%, 100%;
+}
+
+body #consistencyText h1 {
+  border: none !important;
+  font-size: 3.5rem;
+  line-height: 4.375rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "DINPro-Black", sans-serif;
+  padding-bottom: 0px;
+}
+
+body #consistencyText.container-1366 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blueDark-background {
+  background: rgba(14, 65, 116, 0.85);
+}
+
+#consistencyText {
+  margin-top: -115px;
+}
+
+#creativity {
+  background: url("https://resources.sptest16.depaul.edu/brand-consistency/publishingimages/creativity-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#creativity .intro h2 {
+  text-shadow: 2px 2px 0px #1a4c8d;
+  font-size: 3.25rem !important;
+}
+
+#creativity .intro p {
+  max-width: 650px;
+  margin: auto;
+  font-size: 1.85rem;
+  line-height: 1.2;
+  font-family: "DINPro-Condensed-Medium";
+}
+
+.masthead-custom {
+  background: #0057b7;
+  height: 100px;
+}
+
+.masthead-custom img {
+  padding-top: 26px;
+}
+
+@media screen and (max-width: 576px) {
+  .masthead-custom img {
+    height: 90%;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 443px) {
+  .masthead-custom img {
+    padding-top: 20px;
+  }
+}
+footer ul.underline li {
+  padding-bottom: 2px;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+footer i.fab {
+  font-size: 2.25rem;
+  padding: 0 10px;
+}
+
+#visualLeadership .blueBox {
+  min-height: 325px;
+}
+
+@media screen and (max-width: 768px) {
+  .blueBox {
+    margin-bottom: 30px;
+  }
+
+  .mb-margin-fx {
+    margin-bottom: 0px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 815px) {
+  #visualLeadership .blueBox {
+    min-height: 480px;
+  }
+}
+@media screen and (min-width: 816px) and (max-width: 905px) {
+  #visualLeadership .blueBox {
+    min-height: 450px;
+  }
+}
+@media screen and (min-width: 906px) and (max-width: 973px) {
+  #visualLeadership .blueBox {
+    min-height: 410px;
+  }
+}
+@media screen and (min-width: 974px) and (max-width: 1044px) {
+  #visualLeadership .blueBox {
+    min-height: 380px;
+  }
+}
+@media screen and (min-width: 1045px) and (max-width: 1139px) {
+  #visualLeadership .blueBox {
+    min-height: 340px;
+  }
+}
+#hero img {
+  max-width: 100%;
+}
+
+#hero .hero-container {
+  position: relative;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: url("https://resources.sptest16.depaul.edu/brand-consistency/publishingimages/header-background-altered-cropped.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position-x: 25%;
+  background-position-y: 50%;
+  height: 550px;
+}
+
+#hero .hero-image {
+  position: relative;
+  object-fit: cover;
+  background-position-x: 20%;
+  background-position-y: 50%;
+}
+
+#hero .hero-text-container-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+
+#hero .hero-text-container {
+  background: #0e4174;
+  /*background: url("/brand-consistency/publishingimages/background-bar.png");*/
+  mix-blend-mode: hard-light;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#hero h1 {
+  border: none !important;
+  font-size: 3.5rem;
+  line-height: 4.375rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "DINPro-Black", sans-serif;
+  padding-bottom: 0px;
+  /*text-shadow: 0px 4px 4px #083CBA;*/
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*@media screen and (min-width: 768px) {
+	 #hero h1 {
+		text-shadow: 2px 2px #083CBA;
+	}
+}*/
+.height550 {
+  height: 550px;
+}
+
+#page-header {
+  min-height: 420px;
+  max-width: 1150px;
+}
+
+#page-header .heading-container {
+  margin-top: 120px !important;
+  text-align: center;
+}
+
+#page-header h1 {
+  margin-bottom: 35px;
+  border-bottom: 2px solid #af272f !important;
+  text-transform: uppercase;
+  font-weight: 900 !important;
+  font-family: "DINPro-Black", sans-serif !important;
+  color: #0057b7 !important;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.small-e {
+  font-size: 90% !important;
+}
+
+.nopadX {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.blue-band {
+  background-color: #0057b7;
+}
+
+.blue-band h2 {
+  font-size: 3.25rem !important;
+  color: #ffffff !important;
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.blue-band p {
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.white-band h3 {
+  color: #565656 !important;
+  font-size: 1.75rem !important;
+  margin-top: 3rem;
+}
+
+.white-band p {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.white-band a {
+  color: #0057b7 !important;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  font-size: 1.3rem;
+}
+
+.white-band ul {
+  color: #0057b7;
+  list-style-type: disc;
+  /*list-style-image: url($url+'/PublishingImages/disc-blue-13-2.png');*/
+}
+
+.white-band ul li {
+  padding-left: 4px;
+  padding-bottom: 2px;
+}
+
+.palette {
+  width: 177px;
+  height: 270px;
+  text-transform: uppercase;
+  border: 1px solid #565656;
+  font-family: "Roboto Condensed";
+}
+
+.palette-blue-bright,
+.palette-red,
+.palette-blue-dark {
+  width: 176px;
+  height: 176px;
+}
+
+.palette-blue-bright {
+  background-color: #0057b7;
+}
+
+.palette-blue-dark {
+  background-color: #0e4174;
+}
+
+.palette-red {
+  background-color: #af272f;
+}
+
+.palette-details {
+  padding: 10px;
+  font-size: 0.95rem;
+  color: #565656;
+}
+
+.palette-name {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 430px) {
+  #page-header .heading-container {
+    margin-top: 50px !important;
+  }
+
+  #page-header h1 {
+    font-size: 2.8rem;
+  }
+}
+
+/*# sourceMappingURL=brand-consistency.css.map */

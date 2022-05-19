@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
+// test
+$url: 'https://resources.sptest16.depaul.edu/brand-consistency';
+// prod
+// $url: "..";
+
 @font-face {
 	font-family: 'DINPro-Black';
-	src: url('/brand-consistency/PublishingImages/DINPro-Black.eot?#iefix')
+	src: url($url + '/PublishingImages/DINPro-Black.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-Black.otf')
-			format('opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-Black.woff') format('woff'),
-		url('/brand-consistency/PublishingImages/DINPro-Black.ttf')
-			format('truetype'),
-		url('/brand-consistency/PublishingImages/DINPro-Black.svg#DINPro-Black')
-			format('svg');
+		url($url + '/PublishingImages/DINPro-Black.otf') format('opentype'),
+		url($url + '/PublishingImages/DINPro-Black.woff') format('woff'),
+		url($url + '/PublishingImages/DINPro-Black.ttf') format('truetype'),
+		url($url + '/PublishingImages/DINPro-Black.svg#DINPro-Black') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'DINPro-Condensed-Bold';
-	src: url('/brand-consistency/PublishingImages/DINPro-CondBold.eot?#iefix')
+	src: url($url + '/PublishingImages/DINPro-CondBold.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-CondBold.otf')
-			format('opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-CondBold.woff')
-			format('woff'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.ttf')
-			format('truetype'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.svg#DINPro-CondBold')
+		url($url + '/PublishingImages/DINPro-CondBold.otf') format('opentype'),
+		url($url + '/PublishingImages/DINPro-CondBold.woff') format('woff'),
+		url($url + '/PublishingImages/DINPro-Cond.ttf') format('truetype'),
+		url($url + '/PublishingImages/DINPro-Cond.svg#DINPro-CondBold')
 			format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -33,15 +32,12 @@
 
 @font-face {
 	font-family: 'DINPro-Condensed-Medium';
-	src: url('/brand-consistency/PublishingImages/DINPro-CondMedium?#iefix')
+	src: url($url + '/PublishingImages/DINPro-CondMedium?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-CondMedium.otf')
-			format('opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-CondMedium.woff')
-			format('woff'),
-		url('/brand-consistency/PublishingImages/DINPro-CondMedium.ttf')
-			format('truetype'),
-		url('/brand-consistency/PublishingImages/DINPro-CondMedium.svg#DINPro-Black')
+		url($url + '/PublishingImages/DINPro-CondMedium.otf') format('opentype'),
+		url($url + '/PublishingImages/DINPro-CondMedium.woff') format('woff'),
+		url($url + '/PublishingImages/DINPro-CondMedium.ttf') format('truetype'),
+		url($url + '/PublishingImages/DINPro-CondMedium.svg#DINPro-Black')
 			format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -49,51 +45,47 @@
 
 @font-face {
 	font-family: 'DINPro';
-	src: url('/brand-consistency/PublishingImages/DINPro.eot?#iefix')
+	src: url($url + '/PublishingImages/DINPro.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/DINPro.otf') format('opentype'),
-		url('/brand-consistency/PublishingImages/DINPro.woff') format('woff'),
-		url('/brand-consistency/PublishingImages/DINPro.ttf') format('truetype'),
-		url('/brand-consistency/PublishingImages/DINPro.svg#DINPro-Regular')
-			format('svg');
+		url($url + '/PublishingImages/DINPro.otf') format('opentype'),
+		url($url + '/PublishingImages/DINPro.woff') format('woff'),
+		url($url + '/PublishingImages/DINPro.ttf') format('truetype'),
+		url($url + '/PublishingImages/DINPro.svg#DINPro-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'DINPro-Condensed';
-	src: url('/brand-consistency/PublishingImages/DINPro-Cond.eot?#iefix')
+	src: url($url + '/PublishingImages/DINPro-Cond.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.otf')
-			format('opentype'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.woff') format('woff'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.ttf')
-			format('truetype'),
-		url('/brand-consistency/PublishingImages/DINPro-Cond.svg#DINPro-Cond')
-			format('svg');
+		url($url + '/PublishingImages/DINPro-Cond.otf') format('opentype'),
+		url($url + '/PublishingImages/DINPro-Cond.woff') format('woff'),
+		url($url + '/PublishingImages/DINPro-Cond.ttf') format('truetype'),
+		url($url + '/PublishingImages/DINPro-Cond.svg#DINPro-Cond') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'proxima-nova-condensed';
-	src: url('/brand-consistency/PublishingImages/3119EE_2_0.eot');
-	src: url('/brand-consistency/PublishingImages/3119EE_2_0.eot?#iefix')
+	src: url($url + '/PublishingImages/3119EE_2_0.eot');
+	src: url($url + '/PublishingImages/3119EE_2_0.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/3119EE_2_0.woff2') format('woff2'),
-		url('/brand-consistency/PublishingImages/3119EE_2_0.woff') format('woff'),
-		url('/brand-consistency/PublishingImages/3119EE_2_0.ttf') format('truetype');
+		url($url + '/PublishingImages/3119EE_2_0.woff2') format('woff2'),
+		url($url + '/PublishingImages/3119EE_2_0.woff') format('woff'),
+		url($url + '/PublishingImages/3119EE_2_0.ttf') format('truetype');
 	font-weight: 300;
 }
 
 @font-face {
 	font-family: 'proxima-nova-condensed';
-	src: url('/brand-consistency/PublishingImages/3119EE_5_0.eot');
-	src: url('/brand-consistency/PublishingImages/3119EE_5_0.eot?#iefix')
+	src: url($url + '/PublishingImages/3119EE_5_0.eot');
+	src: url($url + '/PublishingImages/3119EE_5_0.eot?#iefix')
 			format('embedded-opentype'),
-		url('/brand-consistency/PublishingImages/3119EE_5_0.woff2') format('woff2'),
-		url('/brand-consistency/PublishingImages/3119EE_5_0.woff') format('woff'),
-		url('/brand-consistency/PublishingImages/3119EE_5_0.ttf') format('truetype');
+		url($url + '/PublishingImages/3119EE_5_0.woff2') format('woff2'),
+		url($url + '/PublishingImages/3119EE_5_0.woff') format('woff'),
+		url($url + '/PublishingImages/3119EE_5_0.ttf') format('truetype');
 	font-weight: 400;
 }
 
@@ -273,8 +265,8 @@ footer .copyright {
 
 #consistencyheader {
 	height: 550px;
-	background: url('/brand-consistency/publishingimages/header-background.jpg'),
-		url('/brand-consistency/publishingimages/background-bar.png');
+	background: url($url + '/publishingimages/header-background.jpg'),
+		url($url + '/publishingimages/background-bar.png');
 	background-size: cover, contain;
 	background-position: center, bottom;
 	background-repeat: no-repeat, repeat-x;
@@ -307,7 +299,7 @@ body #consistencyText.container-1366 {
 }
 
 #creativity {
-	background: url('/brand-consistency/publishingimages/creativity-background.jpg');
+	background: url($url + '/publishingimages/creativity-background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -413,7 +405,7 @@ footer i.fab {
 	position: relative;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-	background: url('/brand-consistency/publishingimages/header-background-altered-cropped.jpg');
+	background: url($url + '/publishingimages/header-background-altered-cropped.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -539,7 +531,7 @@ footer i.fab {
 .white-band ul {
 	color: #0057b7;
 	list-style-type: disc;
-	/*list-style-image: url('/brand-consistency/PublishingImages/disc-blue-13-2.png');*/
+	/*list-style-image: url($url+'/PublishingImages/disc-blue-13-2.png');*/
 }
 
 .white-band ul li {
