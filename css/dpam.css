@@ -1820,7 +1820,7 @@ html {
 }
 
 .theme-dpam .nav-primary li.nav-item div.sub-nav {
-  background-color: #1c252f;
+  background-color: #0e4174;
   border: none;
   padding: 0;
   top: 47px !important;
@@ -1883,7 +1883,7 @@ html {
 }
 
 .theme-dpam .nav-secondary {
-  border-top: 3px solid #1c252f;
+  border-top: 3px solid #0e4174;
 }
 
 .theme-dpam .nav-secondary li {
@@ -4752,8 +4752,8 @@ html {
   border-style: solid;
 }
 
-.theme-dpam .text-blue--bright {
-  color: #0057b7 !important;
+.theme-dpam #s4-bodyContainer .text-blue--bright {
+  color: #1a87ff !important;
 }
 
 .theme-dpam .bg-blue--bright {
@@ -4839,7 +4839,7 @@ html {
 }
 
 .theme-dpam .border-black {
-  border-color: #000 !important;
+  border-color: #0e4174 !important;
   border-style: solid;
 }
 
@@ -4848,7 +4848,7 @@ html {
 }
 
 .theme-dpam .bg-black {
-  background-color: #000 !important;
+  background-color: #0e4174 !important;
 }
 
 .theme-dpam .border-black--light {
@@ -4904,7 +4904,7 @@ html {
 .theme-dpam #ga-global,
 .theme-dpam .nav-primary li.nav-item div.sub-nav,
 .theme-dpam .masthead {
-  background: #fff;
+  background: #fff !important;
 }
 
 .theme-dpam .nav-primary li {
@@ -4953,7 +4953,7 @@ html {
   border-color: #000 !important;
 }
 
-.theme-dpam .logo-short {
+.theme-dpam #s4-bodyContainer .logo-short {
   background: url("https://resources.depaul.edu/art-museum/PublishingImages/DPAM_logo2.png") !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
@@ -4987,12 +4987,11 @@ html {
 
 .theme-dpam .nav-primary .accessible-megamenu-panel ul {
   padding: 0 5px 5px 5px !important;
-  background: -webkit-gradient(linear, left top, right top, from(#0057b7), color-stop(31%, #6529d7), color-stop(86%, #af272f));
-  background: linear-gradient(to right, #0057b7 0%, #6529d7 31%, #af272f 86%);
+  background: inherit;
 }
 
 .theme-dpam .nav-primary .accessible-megamenu-panel ul li {
-  background: #000;
+  background: inherit;
 }
 
 .sub-nav li {
@@ -5013,26 +5012,15 @@ html {
 
 .theme-dpam #ga-global {
   position: relative;
-  background: #000 !important;
+  background: #0057b7 !important;
 }
 
 .theme-dpam #ga-global:before {
-  content: "";
-  background-image: linear-gradient(to right, #0057b7 0%, #6529d7 31%, #e73b1f 86%);
-  position: absolute;
-  top: -4px;
-  width: 100%;
-  height: 4px;
+  background-image: none;
 }
 
 .theme-dpam #ga-global:after {
-  content: "";
-  background-image: linear-gradient(to right, #0057b7 0%, #6529d7 31%, #e73b1f 86%);
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 4px;
-  z-index: 9;
+  background-image: none;
 }
 
 .theme-dpam .nav-primary li.nav-item div.sub-nav {
@@ -5063,7 +5051,7 @@ html {
 .theme-dpam .copyright h3,
 .theme-dpam .footer a,
 .theme-dpam .footer h3,
-.theme-dpam ga-footer p {
+.theme-dpam #ga-footer p {
   color: #b3b3b3 !important;
 }
 
@@ -5112,7 +5100,7 @@ input[type=submit i] {
 }
 
 .social-black {
-  background-color: #000 !important;
+  background-color: #0e4174 !important;
 }
 
 .social-black:hover {
