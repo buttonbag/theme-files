@@ -1,0 +1,150 @@
+// colors
+@function scale($color, $n: 0) {
+	$scaled: scale-color($color, $lightness: 1% * $n);
+	@return $scaled;
+}
+
+$blue: #0057b7;
+$dark-blue: #0e4174;
+$light-blue: scale($blue, 30);
+$bright-blue: scale($blue, 60);
+$blue-white: scale($blue, 90);
+$white: #fff;
+$black: #000;
+$gray: #565656;
+$dark-gray: scale($gray, -50);
+$light-gray: scale($gray, 70);
+$gray-white: scale($gray, 90);
+$red: #af272f;
+
+#ga-maincontent h1 {
+	border: none;
+}
+
+#ga-maincontent .dpu-logo {
+	max-width: 300px;
+	width: 100%;
+}
+
+#s4-bodyContainer .container-1366 {
+	max-width: 1366px;
+}
+
+#s4-bodyContainer #vbHeader {
+	max-width: 1366px;
+}
+
+#ctl00_PlaceHolderMain_HeadingDisplayModePanel {
+	margin-top: 1em;
+}
+
+#ga-maincontent #vbFooter a {
+	color: $white;
+}
+
+html {
+	font-size: 140%;
+}
+
+#s4-bodyContainer [class^='container-1']:not([class^='p']) {
+	padding: 0;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#s4-bodyContainer .hamburger.hamburger--collapse {
+	min-width: unset;
+}
+
+#s4-bodyContainer {
+	overflow: hidden;
+}
+
+#s4-bodyContainer .circle-stat h3 {
+	color: $white !important;
+}
+
+.start-today a {
+	margin-right: 5px;
+}
+
+@media (max-width: 50em) {
+	#s4-bodyContainer .py-5 {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+
+	#s4-bodyContainer .px-5 {
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+	}
+	.cdm-stat-area .col-md-4:not(:first-child) .circle-stat {
+		margin-top: 30px;
+	}
+
+	.start-ctas a {
+		width: 100%;
+	}
+
+	.start-ctas a:not(:first-child) {
+		margin-top: 10px;
+	}
+
+	.start-today {
+		padding: 30px 15px;
+	}
+}
+
+video {
+	width: 100%;
+	max-width: 100%;
+}
+
+.cdm-programs-header h1 {
+	color: $white !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.stat-area {
+	max-width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stat-area h2 {
+	color: $blue-white !important;
+}
+
+.stat-area hr {
+	margin: 36px 0;
+}
+
+.caption-btn-1 {
+	left: -185px;
+}
+
+.caption-btn-2 {
+	right: -186px;
+}
+
+.arrow-right {
+	max-width: 8px !important;
+}
+
+#vbNav a {
+	color: $blue !important;
+}
+
+.container-275 {
+	margin: 0 auto !important;
+}
