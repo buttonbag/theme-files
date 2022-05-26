@@ -85,14 +85,7 @@ html {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-@media (max-width: 50em) {
-	html {
-	}
-}
-@media (max-width: 30em) {
-	html {
-	}
-}
+
 .theme-dpam {
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -250,11 +243,7 @@ html {
 	-ms-flex: 1 1 0%;
 	flex: 1 1 0%;
 }
-.theme-dpam [class*='col-'] {
-	//-webkit-box-flex:0;
-	//-ms-flex:none;
-	//flex:none
-}
+
 .theme-dpam [class~='grid'][class~='col'],
 .theme-dpam [class~='grid'][class*='col-'],
 .theme-dpam [class~='grid'][class*='col_'],
@@ -1593,8 +1582,7 @@ html {
 .theme-dpam .dpu-logo {
 	color: #55e4e7 !important;
 }
-.theme-dpam .dpu-logo .h1 {
-}
+
 .theme-dpam .dpu-logo a:hover,
 .theme-dpam .dpu-logo a:focus {
 	text-decoration: underline !important;
@@ -1854,8 +1842,7 @@ html {
 .theme-dpam .image-stats-wrapper {
 	padding: 45px !important;
 }
-.theme-dpam .faqtainer {
-}
+
 .theme-dpam .faqtainer .toggle_container p:first-child {
 	margin-top: 0;
 }
@@ -2033,8 +2020,7 @@ html {
 	margin-bottom: 15px;
 	color: #74baff !important;
 }
-.theme-dpam .slate-form a font {
-}
+
 .theme-dpam .slate-form label {
 	color: $white;
 }
@@ -2107,14 +2093,7 @@ html {
 	margin: 0;
 	font-weight: normal;
 }
-@media (max-width: 50em) {
-	.theme-dpam
-		.outcomes-panel
-		.outcomes-panel-circle-container
-		.outcomes-panel-circle
-		h2 {
-	}
-}
+
 .theme-dpam .outcomes-panel .outcomes-panel-content {
 	float: none;
 	display: table-cell;
@@ -2269,12 +2248,7 @@ html {
 .theme-dpam .thin {
 	font-weight: 300;
 }
-.theme-dpam .fs125 {
-}
-.theme-dpam .fs2 {
-}
-.theme-dpam .fs275 {
-}
+
 .theme-dpam .uppercase {
 	text-transform: uppercase;
 }
@@ -2331,8 +2305,7 @@ html {
 .theme-dpam .no-bullets {
 	padding-left: 0 !important;
 }
-.theme-dpam .small-e {
-}
+
 .theme-dpam .nomargin-top {
 	margin-top: 0 !important;
 }
@@ -3137,8 +3110,7 @@ html {
 .theme-dpam .BioRollUp_WP h3.medium {
 	margin: 0.75rem 0 0.25rem;
 }
-.theme-dpam ol li {
-}
+
 .theme-dpam .SharedSiteContent_WP h3 {
 	padding: 0;
 }
@@ -3170,8 +3142,7 @@ html {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
-.theme-dpam .BioRollUp_WP ul li {
-}
+
 .theme-dpam .m0 {
 	margin: 0 !important;
 }
@@ -3250,12 +3221,7 @@ html {
 	color: $blue;
 	border-bottom: 1px solid $blue;
 }
-.theme-dpam a:hover,
-.theme-dpam a:focus {
-	//-webkit-text-decoration-line:none;
-	//text-decoration-line:none;
-	//border-bottom:none
-}
+
 .theme-dpam h1,
 .theme-dpam h2 {
 	-webkit-text-stroke-width: 2px;
@@ -3286,8 +3252,7 @@ html {
 .theme-dpam .copyright {
 	border-color: $blue-white;
 }
-.theme-dpam .table-theme {
-}
+
 .theme-dpam .table-theme thead td {
 	background-color: $blue;
 	border-color: $dark-blue;
