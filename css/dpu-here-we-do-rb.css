@@ -5352,4 +5352,8 @@ body > .alert {
   display: none;
 }
 
+#dpu-notice-banner {
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=dpu-here-we-do-rb.css.map */
