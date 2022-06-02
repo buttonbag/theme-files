@@ -3432,16 +3432,26 @@ html {
 @media (max-width: 1279px) {
 	#localmenu .nav-link {
 		color: $blue !important;
+		border-bottom: none !important;
 	}
 	#sitemenu .nav-item a {
 		color: $white !important;
 	}
+
+	#navbarCollapse {
+		background-color: $blue;
+	}
+
 	#navbarCollapse .slide-content > a {
 		color: $white !important;
+		background-color: $blue;
 	}
 	#navbarCollapse h4,
 	#navbarCollapse p {
-		color: $blue !important;
+		color: $white !important;
+	}
+	#navbarCollapse li a {
+		color: $white;
 	}
 }
 
@@ -4328,8 +4338,8 @@ input[type='submit' i] {
 	//border-bottom: 1px solid $blue;
 }
 
-.theme-dpam #ga-maincontent h2,
-.theme-dpam #ga-maincontent h3 {
+.theme-dpam #s4-bodyContainer #ga-maincontent h2,
+.theme-dpam #s4-bodyContainer #ga-maincontent h3 {
 	color: $black;
 }
 
@@ -4378,4 +4388,28 @@ input[type='submit' i] {
 }
 .theme-dpam #ga-maincontent .filters-container ul li {
 	list-style: none;
+}
+
+.theme-dpam #s4-bodyContainer #ga-maincontent {
+	ul.dpam-exhibition-artist-grid
+		li
+		a:not(.dpam-exhibition-button):not(.carousel-control-prev):not(.carousel-control-next) {
+		h5 {
+			color: $black;
+		}
+	}
+	.dpam-exhibition-theme {
+		h5 {
+			color: $black;
+		}
+		.dpam-exhibition-hero-text {
+			* {
+				color: $white;
+			}
+		}
+	}
+
+	.dpam-exhibition-modal .modal-content {
+		background: $white;
+	}
 }
