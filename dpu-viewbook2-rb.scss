@@ -556,8 +556,14 @@ video {
 			right: 80px;
 			border-left: 16px solid transparent;
 			border-top: none;
-			border-bottom: 16px solid $bright-blue;
+			border-bottom: 16px solid scale($blue, 10);
 			border-right: 16px solid transparent;
+
+			@media (max-width: 1440px) {
+				left: 80px;
+				margin: 0 auto;
+				width: 16px;
+			}
 		}
 
 		.start-ctas a {

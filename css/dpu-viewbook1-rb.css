@@ -385,7 +385,7 @@ video {
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent #vbNav a:hover,
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent #vbNav a:focus {
-  border-bottom: 1px solid #7b1b21;
+  border-bottom: 1px solid #af272f;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent #vbNav a.active {
   border-bottom: 1px solid #af272f;
@@ -422,8 +422,15 @@ video {
   right: 80px;
   border-left: 16px solid transparent;
   border-top: none;
-  border-bottom: 16px solid #0057b7;
+  border-bottom: 16px solid #0067d8;
   border-right: 16px solid transparent;
+}
+@media (max-width: 1440px) {
+  .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .start-today .row:after {
+    left: 80px;
+    margin: 0 auto;
+    width: 16px;
+  }
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .start-ctas a {
   background: #af272f;
@@ -1036,13 +1043,13 @@ video {
   background: #0057b7;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-program-faq .cdm-faq-header:nth-child(3) {
-  background: #7cbaff;
+  background: #0057b7;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-program-faq .cdm-faq-header:nth-child(5) {
-  background: #0e4174;
+  background: #0057b7;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-program-faq .cdm-faq-header:nth-child(7) {
-  background: #1a87ff;
+  background: #0057b7;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .caption-btn-1 {
   position: absolute;

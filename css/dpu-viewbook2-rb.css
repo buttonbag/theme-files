@@ -461,8 +461,15 @@ video {
   right: 80px;
   border-left: 16px solid transparent;
   border-top: none;
-  border-bottom: 16px solid #7cbaff;
+  border-bottom: 16px solid #0067d8;
   border-right: 16px solid transparent;
+}
+@media (max-width: 1440px) {
+  .theme-dpu-blue1 #s4-bodyContainer .start-today .row:after {
+    left: 80px;
+    margin: 0 auto;
+    width: 16px;
+  }
 }
 .theme-dpu-blue1 #s4-bodyContainer .start-ctas a {
   background: #af272f;

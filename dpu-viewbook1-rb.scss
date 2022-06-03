@@ -473,7 +473,7 @@ video {
 
 			#vbNav a:hover,
 			#vbNav a:focus {
-				border-bottom: 1px solid $dark-red;
+				border-bottom: 1px solid $red;
 			}
 
 			#vbNav a.active {
@@ -517,8 +517,13 @@ video {
 				right: 80px;
 				border-left: 16px solid transparent;
 				border-top: none;
-				border-bottom: 16px solid $blue;
+				border-bottom: 16px solid scale($blue, 10);
 				border-right: 16px solid transparent;
+				@media (max-width: 1440px) {
+					left: 80px;
+					margin: 0 auto;
+					width: 16px;
+				}
 			}
 
 			.start-ctas a {
@@ -1239,15 +1244,15 @@ video {
 			}
 
 			.cdm-program-faq .cdm-faq-header:nth-child(3) {
-				background: $bright-blue;
+				background: $blue;
 			}
 
 			.cdm-program-faq .cdm-faq-header:nth-child(5) {
-				background: $dark-blue;
+				background: $blue;
 			}
 
 			.cdm-program-faq .cdm-faq-header:nth-child(7) {
-				background: $light-blue;
+				background: $blue;
 			}
 
 			.caption-btn-1 {
