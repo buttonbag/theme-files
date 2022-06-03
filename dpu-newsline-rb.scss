@@ -1,3 +1,8 @@
+// url local
+$url: 'https://resources.sptest16.depaul.edu/newsline/';
+// url prod
+// $url: '';
+
 // colors
 @function scale($color, $n: 0) {
 	$scaled: scale-color($color, $lightness: 1% * $n);
@@ -16,6 +21,7 @@ $dark-gray: scale($gray, -50);
 $light-gray: scale($gray, 70);
 $gray-white: scale($gray, 90);
 $red: #af272f;
+$dark-red: scale($red, -30);
 
 html {
 	background-color: $black;
@@ -2190,16 +2196,16 @@ html {
 	margin: 0;
 }
 .theme-dpam .icon-briefcase {
-	background-image: url('https://business.sptest.depaul.edu/academics/graduate/PublishingImages/icon-briefcase.png');
+	background-image: url('https://business.sptest16.depaul.edu/academics/graduate/PublishingImages/icon-briefcase.png');
 }
 .theme-dpam .icon-finances {
-	background-image: url('https://business.sptest.depaul.edu/academics/graduate/PublishingImages/icon-finances.png');
+	background-image: url('https://business.sptest16.depaul.edu/academics/graduate/PublishingImages/icon-finances.png');
 }
 .theme-dpam .icon-misc {
-	background-image: url('https://business.sptest.depaul.edu/academics/graduate/PublishingImages/icon-misc.png');
+	background-image: url('https://business.sptest16.depaul.edu/academics/graduate/PublishingImages/icon-misc.png');
 }
 .theme-dpam .icon-ranking {
-	background-image: url('https://business.sptest.depaul.edu/academics/graduate/PublishingImages/icon-ranking.png');
+	background-image: url('https://business.sptest16.depaul.edu/academics/graduate/PublishingImages/icon-ranking.png');
 }
 .theme-dpam .cf {
 	clear: both;
@@ -3226,7 +3232,7 @@ html {
 	background-color: $blue-white !important;
 }
 .theme-dpam #ga-footer a.social-gray:hover {
-	background-color: #3400ff !important;
+	background-color: $blue !important;
 }
 .theme-dpam .copyright {
 	border-color: $blue-white;
@@ -3235,7 +3241,7 @@ html {
 	font-size: 0.9rem !important;
 }
 .theme-dpam .table-theme thead td {
-	background-color: #3400ff;
+	background-color: $blue;
 	border-color: $dark-blue;
 }
 .theme-dpam .table-theme td {
@@ -3258,7 +3264,7 @@ html {
 	text-transform: uppercase;
 }
 .theme-dpam .text-box--overlay {
-	background-color: #3400ff;
+	background-color: $blue;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -3304,22 +3310,22 @@ html {
 	border-top-width: 3px;
 }
 .theme-dpam .border-b-blue {
-	border-bottom-color: #3400ff;
+	border-bottom-color: $blue;
 	border-bottom-style: solid;
 	border-bottom-width: 3px;
 }
 .theme-dpam .border-t-blue {
-	border-top-color: #3400ff;
+	border-top-color: $blue;
 	border-top-style: solid;
 	border-top-width: 3px;
 }
 .theme-dpam .border-l-blue {
-	border-left-color: #3400ff;
+	border-left-color: $blue;
 	border-left-style: solid;
 	border-left-width: 3px;
 }
 .theme-dpam .border-r-blue {
-	border-right-color: #3400ff;
+	border-right-color: $blue;
 	border-right-style: solid;
 	border-right-width: 3px;
 }
@@ -3349,7 +3355,7 @@ html {
 	width: 100%;
 }
 .theme-dpam div.scrollHeader {
-	background: #3400ff;
+	background: $blue;
 	text-align: center !important;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -3388,7 +3394,7 @@ html {
 		font-weight: normal;
 	}
 	.theme-dpam td.academicOffering {
-		background-color: #3400ff !important;
+		background-color: $blue !important;
 	}
 	.theme-dpam td.academicOffering a {
 		color: $white !important;
@@ -3396,12 +3402,12 @@ html {
 }
 @media (max-width: 1279px) {
 	.theme-dpam #majors tbody tr td:first-child {
-		background-color: #3400ff !important;
+		background-color: $blue !important;
 	}
 }
 .theme-dpam .nav-primary,
 .theme-dpam .masthead {
-	background-color: #3400ff;
+	background-color: $blue;
 }
 .theme-dpam .masthead {
 	height: 100px !important;
@@ -3428,7 +3434,7 @@ html {
 	border-bottom: 3px solid $blue-white;
 }
 .theme-dpam .nav-primary li.nav-item div.sub-nav {
-	background-color: #3400ff;
+	background-color: $blue;
 }
 .theme-dpam .logo-long,
 .theme-dpam .logo-short {
@@ -3460,7 +3466,7 @@ html {
 .theme-dpam .nav-secondary .level-2 .child-page a:hover,
 .theme-dpam .nav-secondary .level-2 .child-sub a:focus,
 .theme-dpam .nav-secondary .level-2 .child-page a:focus {
-	color: #3400ff !important;
+	color: $blue !important;
 	background: $gray-white !important;
 }
 .theme-dpam .nav-secondary li a,
@@ -3491,17 +3497,17 @@ html {
 }
 .theme-dpam .cta-blue {
 	color: $white;
-	border-color: #3400ff !important;
-	background-color: #3400ff;
+	border-color: $blue !important;
+	background-color: $blue;
 }
 .theme-dpam .cta-blue:after {
-	border-bottom-color: #3400ff;
+	border-bottom-color: $blue;
 }
 .theme-dpam .cta-blue:hover,
 .theme-dpam .cta-blue:focus {
 	color: $white;
-	background-color: #3400ff;
-	border-color: #3400ff !important;
+	background-color: $blue;
+	border-color: $blue !important;
 }
 .theme-dpam .cta-blue:hover:after,
 .theme-dpam .cta-blue:focus:after {
@@ -3509,17 +3515,17 @@ html {
 }
 .theme-dpam .cta-black {
 	color: $white;
-	border-color: #000 !important;
-	background-color: #000;
+	border-color: $black !important;
+	background-color: $black;
 }
 .theme-dpam .cta-black:after {
-	border-bottom-color: #000;
+	border-bottom-color: $black;
 }
 .theme-dpam .cta-black:hover,
 .theme-dpam .cta-black:focus {
 	color: $white;
 	background-color: $black;
-	border-color: #000 !important;
+	border-color: $black !important;
 }
 .theme-dpam .cta-black:hover:after,
 .theme-dpam .cta-black:focus:after {
@@ -3528,14 +3534,14 @@ html {
 .theme-dpam .cta-blue--ghost,
 .theme-dpam .cta-blue2,
 .theme-dpam .btn-primary--ghost {
-	color: #3400ff !important;
-	border-color: #3400ff;
+	color: $blue !important;
+	border-color: $blue;
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 .theme-dpam .cta-blue--ghost:after,
 .theme-dpam .cta-blue2:after,
 .theme-dpam .btn-primary--ghost:after {
-	border-bottom-color: #3400ff;
+	border-bottom-color: $blue;
 }
 .theme-dpam .cta-blue--ghost:hover,
 .theme-dpam .cta-blue--ghost:focus,
@@ -3544,8 +3550,8 @@ html {
 .theme-dpam .btn-primary--ghost:focus,
 .theme-dpam .btn-primary--ghost:hover {
 	color: $white !important;
-	background-color: #3400ff !important;
-	border-color: #3400ff !important;
+	background-color: $blue !important;
+	border-color: $blue !important;
 }
 .theme-dpam .cta-blue--ghost:hover:after,
 .theme-dpam .cta-blue--ghost:focus:after,
@@ -3557,21 +3563,21 @@ html {
 }
 .theme-dpam .cta-black--ghost,
 .theme-dpam .cta-black2 {
-	color: #000 !important;
+	color: $black !important;
 	border-color: $black;
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 .theme-dpam .cta-black--ghost:after,
 .theme-dpam .cta-black2:after {
-	border-bottom-color: #000;
+	border-bottom-color: $black;
 }
 .theme-dpam .cta-black--ghost:hover,
 .theme-dpam .cta-black--ghost:focus,
 .theme-dpam .cta-black2:hover,
 .theme-dpam .cta-black2:focus {
 	color: $white !important;
-	background-color: #000 !important;
-	border-color: #000 !important;
+	background-color: $black !important;
+	border-color: $black !important;
 }
 .theme-dpam .cta-black--ghost:hover:after,
 .theme-dpam .cta-black--ghost:focus:after,
@@ -3597,16 +3603,16 @@ html {
 }
 .theme-dpam .cta-ghost-blue:hover,
 .theme-dpam .cta-ghost-blue:focus {
-	background-color: #3400ff;
-	border-color: #3400ff;
+	background-color: $blue;
+	border-color: $blue;
 	color: $white !important;
 }
 .theme-dpam #pnlClsSrchSearch .cta-type1 {
-	color: #3400ff !important;
+	color: $blue !important;
 }
 .theme-dpam #pnlClsSrchSearch .cta-type1:hover {
-	background: #3400ff !important;
-	border-color: #3400ff !important;
+	background: $blue !important;
+	border-color: $blue !important;
 	color: $white !important;
 }
 .theme-dpam .BioRollUp_Staff figure {
@@ -3618,8 +3624,8 @@ html {
 }
 
 .theme-dpam .card-panel--blue {
-	--border-color: #3400ff;
-	border-color: #3400ff;
+	--border-color: $blue;
+	border-color: $blue;
 }
 .theme-dpam .card-panel--black {
 	--border-color: $black;
@@ -3793,7 +3799,7 @@ html {
 .theme-dpam .skinsstructure1 {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border: 1px solid #3400ff !important;
+	border: 1px solid $blue !important;
 	margin-bottom: 0 !important;
 }
 .theme-dpam .skinsstructure1 .cta-type1 {
@@ -3802,7 +3808,7 @@ html {
 	border-top: 1px solid;
 	margin: 0;
 	background: none !important;
-	color: #3400ff !important;
+	color: $blue !important;
 	border-radius: 0;
 	padding: 0.75rem 0;
 	margin-left: -0.5rem !important;
@@ -3812,7 +3818,7 @@ html {
 	transition: all 0.2s ease-in-out;
 }
 .theme-dpam .skinsstructure1 .cta-type1:hover {
-	background-color: #3400ff !important;
+	background-color: $blue !important;
 	color: $white !important;
 }
 .theme-dpam .skinsstructure1 h3.media-heading {
@@ -3833,7 +3839,7 @@ html {
 	font-weight: normal;
 }
 .theme-dpam .skinsstructure1 a strong {
-	color: #3400ff !important;
+	color: $blue !important;
 	text-decoration: underline;
 }
 .theme-dpam .size1of1 {
@@ -3894,7 +3900,7 @@ html {
 		rgba(255, 255, 255, 0) 0%,
 		#5e4af3 100%
 	);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$white, endColorstr=#5e4af3, GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#5e4af3, GradientType=0);
 	mix-blend-mode: hard-light;
 }
 .theme-dpam .border-blue--dark {
@@ -3908,14 +3914,14 @@ html {
 	background-color: $dark-blue !important;
 }
 .theme-dpam .border-blue {
-	border-color: #3400ff !important;
+	border-color: $blue !important;
 	border-style: solid;
 }
 .theme-dpam .text-blue {
-	color: #3400ff !important;
+	color: $blue !important;
 }
 .theme-dpam .bg-blue {
-	background-color: #3400ff !important;
+	background-color: $blue !important;
 }
 .theme-dpam .border-blue--med {
 	border-color: #033758 !important;
@@ -3998,14 +4004,14 @@ html {
 	background-color: $white !important;
 }
 .theme-dpam .border-black {
-	border-color: #000 !important;
+	border-color: $black !important;
 	border-style: solid;
 }
 .theme-dpam .text-black {
-	color: #000 !important;
+	color: $black !important;
 }
 .theme-dpam .bg-black {
-	background-color: #000 !important;
+	background-color: $black !important;
 }
 .theme-dpam .border-black--light {
 	border-color: $dark-gray !important;
@@ -4018,7 +4024,7 @@ html {
 	background-color: $dark-gray !important;
 }
 .theme-dpam .hr-blue {
-	border-color: #3400ff;
+	border-color: $blue;
 }
 .theme-dpam .bg-blue--hard-light {
 	background-color: $gray-white;
@@ -4073,7 +4079,7 @@ html {
 		color-stop(86%, #e73b1f)
 	);
 	background: linear-gradient(to right, $blue 0%, #6529d7 31%, #e73b1f 86%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='#e73b1f', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0057b7', endColorstr='#e73b1f', GradientType=1);
 }
 .theme-dpam .copyright,
 .theme-dpam .footer {
@@ -4091,7 +4097,7 @@ html {
 }
 .theme-dpam .nav-primary li.nav-item a:hover,
 .theme-dpam .nav-primary li.nav-item a:focus {
-	border-color: #000 !important;
+	border-color: $black !important;
 }
 .theme-dpam .logo-short {
 	background: url('https://resources.depaul.edu/art-museum/PublishingImages/DPAM_logo2.png') !important;
@@ -4099,7 +4105,7 @@ html {
 	background-size: contain !important;
 	height: 53px !important;
 
-	border-right: 2px solid #3e6fb7 !important;
+	border-right: 2px solid $light-blue !important;
 }
 .theme-dpam .nav-primary li.nav-item > a:hover,
 .theme-dpam .nav-primary li.nav-item > a:focus {
@@ -4269,7 +4275,7 @@ input[type='submit' i] {
 	margin: 0 0 1.5rem 0;
 }
 .theme-dpam .accessible-megamenu-top-nav-item a {
-	line-height: 46px;
+	line-height: 40px;
 }
 
 .theme-dpam .accessible-megamenu .accessible-megamenu-panel a {
@@ -5124,7 +5130,7 @@ input[type='submit' i] {
 		$blue 100%
 	);
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, $blue 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$white, endColorstr=$blue, GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#057b7', GradientType=0);
 	mix-blend-mode: hard-light;
 }
 .theme-dpam #s4-bodyContainer .border-blue--dark {
@@ -5287,7 +5293,7 @@ input[type='submit' i] {
 .theme-dpam #s4-bodyContainer a.site-title-short {
 	position: unset;
 	left: unset;
-	color: #3e6fb7 !important;
+	color: $light-blue !important;
 	padding-top: 7px !important;
 	font-family: Georgia, serif;
 	text-transform: uppercase;
@@ -5310,10 +5316,8 @@ input[type='submit' i] {
 	.theme-dpam #s4-bodyContainer .masthead {
 		height: auto !important;
 	}
-	#navbarCollapse,
-	#sitemenu,
-	#navbarCollapse .slide-content > a {
-		background: $white;
+	#navbarCollapse {
+		background: $blue;
 	}
 	.theme-dpam .nav-secondary {
 		border: none;
@@ -5323,28 +5327,10 @@ input[type='submit' i] {
 	}
 	#sitemenu {
 		position: relative;
-	}
-
-	#sitemenu:before {
-		content: '';
-		background: $blue;
-		height: 4px;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 999;
-	}
-
-	#sitemenu:after {
-		content: '';
-		background: $blue;
-		height: 4px;
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		z-index: 999;
+		&:before,
+		&:after {
+			content: none;
+		}
 	}
 
 	#navbarCollapse .slide-content > a {
@@ -5356,8 +5342,8 @@ input[type='submit' i] {
 	}
 
 	.theme-dpam #s4-bodyContainer .masthead #nav-cta li a {
-		color: $blue !important;
-		border-color: $blue;
+		color: inherit !important;
+		border-color: currentColor;
 	}
 	.theme-dpam .logo-short {
 		width: 44px !important;
@@ -5368,7 +5354,7 @@ input[type='submit' i] {
 	.theme-dpam #s4-bodyContainer a.site-title-short {
 		position: unset;
 		left: unset;
-		color: #3e6fb7 !important;
+		color: $light-blue !important;
 		padding-top: 7px !important;
 		font-family: Georgia, serif;
 		text-transform: uppercase;
@@ -5378,12 +5364,12 @@ input[type='submit' i] {
 	}
 }
 
-.hamburger-toggle {
-	color: #000 !important;
+.theme-dpam #s4-bodyContainer .masthead .hamburger-toggle {
+	color: $white !important;
 }
 
 .masthead .fa-search {
-	color: $black;
+	color: inherit;
 }
 
 @media (max-width: 50em) {
@@ -5402,7 +5388,235 @@ input[type='submit' i] {
 	}
 }
 
-.theme-dpam #s4-bodyContainer .podcast-preview {
+.theme-dpam #s4-bodyContainer #ga-maincontent .podcast-preview {
 	padding: 40px 0;
-	border-bottom: 5px solid $light-blue !important;
+	border-bottom: 5px solid $light-blue;
+}
+
+/* pulled from tagmanager */
+
+.theme-dpam #s4-bodyContainer #ga-secondary {
+	display: none !important;
+}
+
+.theme-dpam #s4-bodyContainer {
+	#ga-maincontent {
+		width: 100% !important;
+
+		.fs075 {
+			font-size: 0.75rem;
+		}
+
+		.text-box--dpam__wrap {
+			width: unset;
+		}
+
+		.nav-primary,
+		#ga-global,
+		.nav-primary li.nav-item div.sub-nav {
+			//background: black;
+		}
+
+		.nav-primary li {
+			padding: 0.25rem 1rem 0.25rem 1rem !important;
+		}
+
+		.nav-primary li.nav-item a:hover,
+		.nav-primary li.nav-item a:focus {
+			border-color: white;
+		}
+
+		.nav-primary li.nav-item div.sub-nav ul {
+			padding: 0 !important;
+		}
+
+		a.site-title-long {
+			//color: blue!important;
+			border: none !important;
+			padding-top: 0.4em !important;
+			padding-left: 22px;
+		}
+
+		.logo-long,
+		.logo-short {
+			//border: none;
+			border-right: 2px solid $light-blue !important;
+		}
+
+		.copyright,
+		.footer p {
+			//color: #ecf3ff!important;
+		}
+
+		.footer a,
+		.copyright a {
+			//color: blue!important;
+		}
+
+		.copyright {
+			//border-color: black;
+		}
+
+		.footer {
+			//border-top: 4px black solid;
+		}
+
+		.logo-long,
+		.logo-short {
+			background-image: url();
+		}
+
+		@media (max-width: 50em) {
+			.logo-short {
+				width: 48px !important;
+				//height: 32px!important;
+				border-right: 0 !important;
+				margin: 0 0 0 3.3em;
+				background-size: cover;
+				//background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAfCAYAAAAbW8YEAAAAGXRFW…GWcW7FVwFfDGE3YEuUDosZJakkzdfblnj9jURJJPkrwACr7QA7utXbxAAAAABJRU5ErkJggg==) no-repeat;
+			}
+		}
+
+		@media (max-width: 30em) {
+			.site-title-short {
+				display: inline-block !important;
+				margin: 0;
+			}
+		}
+
+		.theme-dpam .body-content {
+			background: $white;
+		}
+
+		.small-screen .nav-tab li a,
+		.small-screen .shortcuts-tab li a {
+			color: $white !important;
+		}
+
+		h1,
+		h2 {
+			//color: #2072E0!important;
+		}
+
+		h3 {
+			//color: #113F7C!important;
+		}
+
+		.podcast-episode h3 {
+			font-family: 'Oswald', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-size: 24px;
+			margin: 10px 0;
+			text-transform: uppercase;
+		}
+
+		.podcast-episode h2 {
+			font-family: 'Oswald', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-size: 36px;
+			margin: 20px 0 10px;
+			text-transform: uppercase;
+		}
+
+		.podcast-episode p {
+			margin: 10px 0;
+		}
+
+		.podcast-episode ul li a {
+			text-decoration: underline;
+		}
+
+		.dpu-logo .h1 {
+			font-family: 'Oswald', Georgia, sans-serif;
+			text-transform: uppercase;
+			color: $light-blue !important;
+			font-weight: bold;
+		}
+
+		.podcast-episode-details {
+			padding-top: 30px;
+		}
+
+		.podcast-episode-details h3 {
+			font-family: 'Oswald', sans-serif;
+			margin: 8px 0;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+
+		.podcast-episode-details h2 {
+			font-family: 'Oswald', sans-serif;
+			margin: 20px 0 10px;
+			font-weight: bold;
+			font-size: 40px;
+		}
+
+		.podcast-episode-details h1 {
+			font-family: 'Oswald', sans-serif;
+			text-align: left;
+			margin: 20px 0 10px;
+			padding: 0;
+			border: 0;
+			font-weight: bold;
+			font-size: 40px;
+			text-transform: uppercase;
+		}
+
+		.podcast-episode-details iframe {
+			margin: 20px 0 10px;
+		}
+
+		.podcast-episode-details p {
+			margin: 10px 0;
+		}
+
+		.podcast-episode-details ul {
+			margin: 20px 0;
+			padding-top: 0;
+			padding-left: 30px;
+		}
+
+		.podcast-episode-details ul li {
+			list-style-type: circle;
+		}
+
+		.podcast-episode-details ul li a {
+			text-decoration: underline;
+		}
+
+		.podcast-episode-details img {
+			margin: 20px 0;
+			object-fit: cover;
+			max-height: 500px;
+		}
+
+		.podcast-preview h3 {
+			text-transform: uppercase;
+			margin: 0;
+			color: $dark-blue !important;
+			font-family: 'Oswald', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+		}
+
+		.podcast-preview h2 {
+			text-transform: uppercase;
+			margin: 8px 0;
+			font-family: 'Oswald', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
+
+		.podcast-preview p {
+			margin: 0 0 16px 0;
+		}
+
+		.podcast-preview {
+			padding: 40px 0;
+			border-bottom: 5px solid $bright-blue;
+		}
+
+		.podcast-preview:last-child {
+			border: none;
+			padding-bottom: 0;
+		}
+	}
 }
