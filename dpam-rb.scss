@@ -3954,7 +3954,7 @@ html {
 		rgba(255, 255, 255, 0) 0%,
 		#5e4af3 100%
 	);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$white, endColorstr=#5e4af3, GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#5e4af3, GradientType=0);
 	mix-blend-mode: hard-light;
 }
 .theme-dpam .border-blue--dark {
@@ -4133,7 +4133,7 @@ html {
 		color-stop(86%, $red)
 	);
 	background: linear-gradient(to right, $blue 0%, #6529d7 31%, $red 86%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0057b7', endColorstr='#af272f', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#0057b7, endColorstr=#af272f, GradientType=1);
 }
 .theme-dpam .copyright,
 .theme-dpam .footer {

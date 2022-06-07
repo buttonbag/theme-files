@@ -4714,7 +4714,7 @@ html {
 .theme-dpam .bg-gradient--2 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#5e4af3));
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #5e4af3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$white, endColorstr=#5e4af3, GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#5e4af3, GradientType=0);
   mix-blend-mode: hard-light;
 }
 
@@ -4934,7 +4934,7 @@ html {
   background: #0057b7;
   background: -webkit-gradient(linear, left top, right top, from(#0057b7), color-stop(31%, #6529d7), color-stop(86%, #af272f));
   background: linear-gradient(to right, #0057b7 0%, #6529d7 31%, #af272f 86%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0057b7", endColorstr="#af272f", GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#0057b7, endColorstr=#af272f, GradientType=1);
 }
 
 .theme-dpam .copyright,
