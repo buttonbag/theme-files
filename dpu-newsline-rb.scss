@@ -4624,7 +4624,7 @@ input[type='submit' i] {
 	background: $blue !important;
 }
 .theme-dpam #s4-bodyContainer .masthead {
-	height: 100px !important;
+	height: auto !important;
 }
 .theme-dpam #s4-bodyContainer .dpu-shortcuts {
 	background: $dark-blue;
@@ -5323,7 +5323,7 @@ input[type='submit' i] {
 		border: none;
 	}
 	.theme-dpam .masthead a {
-		color: $blue;
+		color: currentColor;
 	}
 	#sitemenu {
 		position: relative;

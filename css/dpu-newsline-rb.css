@@ -5478,7 +5478,7 @@ input[type=submit i] {
 }
 
 .theme-dpam #s4-bodyContainer .masthead {
-  height: 100px !important;
+  height: auto !important;
 }
 
 .theme-dpam #s4-bodyContainer .dpu-shortcuts {
@@ -6274,7 +6274,7 @@ input[type=submit i] {
   }
 
   .theme-dpam .masthead a {
-    color: #0057b7;
+    color: currentColor;
   }
 
   #sitemenu {
