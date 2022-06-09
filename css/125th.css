@@ -3,48 +3,48 @@
   font-family: "DINPro-Cond";
   font-style: normal;
   font-weight: 500;
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.otf") format("opentype");
+  src: url("../_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.woff") format("woff"), url("../_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondMedium.otf") format("opentype");
 }
 @font-face {
   font-family: "DINPro-Cond";
   font-style: normal;
   font-weight: 700;
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.otf") format("opentype");
+  src: url("../_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.woff") format("woff"), url("../_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.otf") format("opentype");
 }
 @font-face {
   font-family: "DINPro";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Black.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Black.otf") format("opentype");
+  src: url("../PublishingImages/webfonts/DinPro/DINPro-Black.woff") format("woff"), url("../PublishingImages/webfonts/DinPro/DINPro-Black.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Bold.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Bold.otf") format("opentype");
+  src: url("../PublishingImages/webfonts/DinPro/DINPro-Bold.woff") format("woff"), url("../PublishingImages/webfonts/DinPro/DINPro-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Medium.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Medium.otf") format("opentype");
+  src: url("../PublishingImages/webfonts/DinPro/DINPro-Medium.woff") format("woff"), url("../PublishingImages/webfonts/DinPro/DINPro-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Light.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/DinPro/DINPro-Light.otf") format("opentype");
+  src: url("../PublishingImages/webfonts/DinPro/DINPro-Light.woff") format("woff"), url("../PublishingImages/webfonts/DinPro/DINPro-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "proxima-nova-condensed";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot");
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.ttf") format("truetype");
+  src: url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot");
+  src: url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.eot?#iefix") format("embedded-opentype"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff2") format("woff2"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.woff") format("woff"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_2_0.ttf") format("truetype");
   font-weight: 300;
 }
 @font-face {
   font-family: "proxima-nova-condensed";
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed3119EE_5_0.eot");
-  src: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.eot?#iefix") format("embedded-opentype"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff2") format("woff2"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff") format("woff"), url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.ttf") format("truetype");
+  src: url("../PublishingImages/webfonts/Proxima-Nova-Condensed3119EE_5_0.eot");
+  src: url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.eot?#iefix") format("embedded-opentype"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff2") format("woff2"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.woff") format("woff"), url("../PublishingImages/webfonts/Proxima-Nova-Condensed/3119EE_5_0.ttf") format("truetype");
   font-weight: 400;
 }
 html {
@@ -76,7 +76,7 @@ body div.theme-125th {
   position: relative;
   padding-left: 0px !important;
   padding-right: 0px !important;
-  background: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/12_CBB_002-alt.jpg");
+  background: url("../PublishingImages/12_CBB_002-alt.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ body div.theme-125th {
   position: relative;
   padding-left: 0px !important;
   padding-right: 0px !important;
-  background: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/13_CBB_005.png");
+  background: url("../PublishingImages/13_CBB_005.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ body div.theme-125th {
 }
 
 .theme-125th .faces-image {
-  background-image: url("https://resources.sptest16.depaul.edu/125th-anniversary/PublishingImages/FJG-Depaul-Oct-2016-1009-sm.png");
+  background-image: url("../PublishingImages/FJG-Depaul-Oct-2016-1009-sm.png");
 }
 
 @media screen and (min-width: 1075px) {
