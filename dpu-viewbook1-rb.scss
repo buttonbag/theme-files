@@ -1,7 +1,7 @@
 // local url
-$url: 'https://resources.sptest16.depaul.edu/';
+// $url: 'https://resources.sptest16.depaul.edu';
 // prod url
-// $url: "";
+$url: 'https://resources.depaul.edu';
 
 // colors
 @function scale($color, $n: 0) {
@@ -893,7 +893,7 @@ video {
 
 			.cdm-program-content {
 				margin-top: -100px;
-				background: white;
+				background: $white;
 				position: relative;
 				z-index: 1;
 			}

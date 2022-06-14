@@ -3,28 +3,28 @@
 // test
 // $url: 'https://resources.sptest16.depaul.edu/brand-consistency';
 // prod
-$url: '..';
+$url: 'https://resources.depaul.edu/brand-consistency';
 
 @font-face {
 	font-family: 'DINPro-Black';
-	src: url($url + '/PublishingImages/DINPro-Black.eot?#iefix')
+	src: url($url + '/publishingimages/DINPro-Black.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/DINPro-Black.otf') format('opentype'),
-		url($url + '/PublishingImages/DINPro-Black.woff') format('woff'),
-		url($url + '/PublishingImages/DINPro-Black.ttf') format('truetype'),
-		url($url + '/PublishingImages/DINPro-Black.svg#DINPro-Black') format('svg');
+		url($url + '/publishingimages/DINPro-Black.otf') format('opentype'),
+		url($url + '/publishingimages/DINPro-Black.woff') format('woff'),
+		url($url + '/publishingimages/DINPro-Black.ttf') format('truetype'),
+		url($url + '/publishingimages/DINPro-Black.svg#DINPro-Black') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'DINPro-Condensed-Bold';
-	src: url($url + '/PublishingImages/DINPro-CondBold.eot?#iefix')
+	src: url($url + '/publishingimages/DINPro-CondBold.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/DINPro-CondBold.otf') format('opentype'),
-		url($url + '/PublishingImages/DINPro-CondBold.woff') format('woff'),
-		url($url + '/PublishingImages/DINPro-Cond.ttf') format('truetype'),
-		url($url + '/PublishingImages/DINPro-Cond.svg#DINPro-CondBold')
+		url($url + '/publishingimages/DINPro-CondBold.otf') format('opentype'),
+		url($url + '/publishingimages/DINPro-CondBold.woff') format('woff'),
+		url($url + '/publishingimages/DINPro-Cond.ttf') format('truetype'),
+		url($url + '/publishingimages/DINPro-Cond.svg#DINPro-CondBold')
 			format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -32,12 +32,12 @@ $url: '..';
 
 @font-face {
 	font-family: 'DINPro-Condensed-Medium';
-	src: url($url + '/PublishingImages/DINPro-CondMedium?#iefix')
+	src: url($url + '/publishingimages/DINPro-CondMedium?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/DINPro-CondMedium.otf') format('opentype'),
-		url($url + '/PublishingImages/DINPro-CondMedium.woff') format('woff'),
-		url($url + '/PublishingImages/DINPro-CondMedium.ttf') format('truetype'),
-		url($url + '/PublishingImages/DINPro-CondMedium.svg#DINPro-Black')
+		url($url + '/publishingimages/DINPro-CondMedium.otf') format('opentype'),
+		url($url + '/publishingimages/DINPro-CondMedium.woff') format('woff'),
+		url($url + '/publishingimages/DINPro-CondMedium.ttf') format('truetype'),
+		url($url + '/publishingimages/DINPro-CondMedium.svg#DINPro-Black')
 			format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -45,47 +45,47 @@ $url: '..';
 
 @font-face {
 	font-family: 'DINPro';
-	src: url($url + '/PublishingImages/DINPro.eot?#iefix')
+	src: url($url + '/publishingimages/DINPro.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/DINPro.otf') format('opentype'),
-		url($url + '/PublishingImages/DINPro.woff') format('woff'),
-		url($url + '/PublishingImages/DINPro.ttf') format('truetype'),
-		url($url + '/PublishingImages/DINPro.svg#DINPro-Regular') format('svg');
+		url($url + '/publishingimages/DINPro.otf') format('opentype'),
+		url($url + '/publishingimages/DINPro.woff') format('woff'),
+		url($url + '/publishingimages/DINPro.ttf') format('truetype'),
+		url($url + '/publishingimages/DINPro.svg#DINPro-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'DINPro-Condensed';
-	src: url($url + '/PublishingImages/DINPro-Cond.eot?#iefix')
+	src: url($url + '/publishingimages/DINPro-Cond.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/DINPro-Cond.otf') format('opentype'),
-		url($url + '/PublishingImages/DINPro-Cond.woff') format('woff'),
-		url($url + '/PublishingImages/DINPro-Cond.ttf') format('truetype'),
-		url($url + '/PublishingImages/DINPro-Cond.svg#DINPro-Cond') format('svg');
+		url($url + '/publishingimages/DINPro-Cond.otf') format('opentype'),
+		url($url + '/publishingimages/DINPro-Cond.woff') format('woff'),
+		url($url + '/publishingimages/DINPro-Cond.ttf') format('truetype'),
+		url($url + '/publishingimages/DINPro-Cond.svg#DINPro-Cond') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'proxima-nova-condensed';
-	src: url($url + '/PublishingImages/3119EE_2_0.eot');
-	src: url($url + '/PublishingImages/3119EE_2_0.eot?#iefix')
+	src: url($url + '/publishingimages/3119EE_2_0.eot');
+	src: url($url + '/publishingimages/3119EE_2_0.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/3119EE_2_0.woff2') format('woff2'),
-		url($url + '/PublishingImages/3119EE_2_0.woff') format('woff'),
-		url($url + '/PublishingImages/3119EE_2_0.ttf') format('truetype');
+		url($url + '/publishingimages/3119EE_2_0.woff2') format('woff2'),
+		url($url + '/publishingimages/3119EE_2_0.woff') format('woff'),
+		url($url + '/publishingimages/3119EE_2_0.ttf') format('truetype');
 	font-weight: 300;
 }
 
 @font-face {
 	font-family: 'proxima-nova-condensed';
-	src: url($url + '/PublishingImages/3119EE_5_0.eot');
-	src: url($url + '/PublishingImages/3119EE_5_0.eot?#iefix')
+	src: url($url + '/publishingimages/3119EE_5_0.eot');
+	src: url($url + '/publishingimages/3119EE_5_0.eot?#iefix')
 			format('embedded-opentype'),
-		url($url + '/PublishingImages/3119EE_5_0.woff2') format('woff2'),
-		url($url + '/PublishingImages/3119EE_5_0.woff') format('woff'),
-		url($url + '/PublishingImages/3119EE_5_0.ttf') format('truetype');
+		url($url + '/publishingimages/3119EE_5_0.woff2') format('woff2'),
+		url($url + '/publishingimages/3119EE_5_0.woff') format('woff'),
+		url($url + '/publishingimages/3119EE_5_0.ttf') format('truetype');
 	font-weight: 400;
 }
 
@@ -531,7 +531,7 @@ footer i.fab {
 .white-band ul {
 	color: #0057b7;
 	list-style-type: disc;
-	/*list-style-image: url($url+'/PublishingImages/disc-blue-13-2.png');*/
+	/*list-style-image: url($url+'/publishingimages/disc-blue-13-2.png');*/
 }
 
 .white-band ul li {
