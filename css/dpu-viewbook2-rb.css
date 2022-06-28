@@ -968,6 +968,9 @@ video {
   position: relative;
   height: 100%;
 }
+.theme-dpu-blue1 #s4-bodyContainer .cdm-cover-helper * {
+  color: #fff;
+}
 .theme-dpu-blue1 #s4-bodyContainer .cdm-tri-cover h5 {
   position: absolute;
   top: 50%;

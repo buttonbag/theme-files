@@ -1137,6 +1137,9 @@ video {
 			.cdm-cover-helper {
 				position: relative;
 				height: 100%;
+				* {
+					color: $white;
+				}
 			}
 
 			.cdm-tri-cover h5 {
