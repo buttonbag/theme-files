@@ -1,5 +1,5 @@
 #ga-maincontent h1 {
-  border: none;
+  border: none !important;
 }
 
 #ga-maincontent .dpu-logo {
@@ -396,7 +396,7 @@ video {
   }
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .start-today {
-  background: #0057b7 url("/viewbook/kgsb/PublishingImages/start_today_bgB.jpg");
+  background: #0057b7 url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/start_today_bgB.jpg");
   background-size: cover;
   padding: 60px 40px;
   display: none;
@@ -939,6 +939,9 @@ video {
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-tri-panel {
   position: relative;
 }
+.theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-tri-panel * {
+  color: #fff;
+}
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-tri-cover {
   position: absolute;
   width: 100%;
@@ -955,9 +958,6 @@ video {
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-cover-helper {
   position: relative;
   height: 100%;
-}
-.theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-cover-helper * {
-  color: #fff;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-tri-cover h5 {
   position: absolute;
@@ -1029,7 +1029,7 @@ video {
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-faq-header:after {
   content: "";
-  background: url("/viewbook/cdm/PublishingImages/Plus_Icon_White.png");
+  background: url("https://resources.sptest16.depaul.edu/viewbook/cdm/PublishingImages/Plus_Icon_White.png");
   height: 32px;
   width: 32px;
   position: absolute;
@@ -1039,7 +1039,7 @@ video {
   z-index: 8;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-faq-header.minus:after {
-  background: url("/viewbook/cdm/PublishingImages/Minus_Icon_White.png");
+  background: url("https://resources.sptest16.depaul.edu/viewbook/cdm/PublishingImages/Minus_Icon_White.png");
   background-size: contain;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-program-faq .cdm-faq-header:nth-child(1) {
@@ -1100,15 +1100,15 @@ video {
   background-color: #7b1b21;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .fb {
-  background-image: url("/viewbook/kgsb/PublishingImages/fb.png");
+  background-image: url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/fb.png");
   margin-right: 16px;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .linkedin {
-  background-image: url("/viewbook/kgsb/PublishingImages/linkedin.png");
+  background-image: url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/linkedin.png");
   margin-right: 16px;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .twitter {
-  background-image: url("/viewbook/cdm/PublishingImages/twitter2.png");
+  background-image: url("https://resources.sptest16.depaul.edu/viewbook/cdm/PublishingImages/twitter2.png");
 }
 @media (max-width: 50em) {
   .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .kgsb-header-tagline {

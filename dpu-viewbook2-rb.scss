@@ -1,7 +1,7 @@
 // local url
-// $url: 'https://resources.sptest16.depaul.edu';
+$url: 'https://resources.sptest16.depaul.edu';
 // prod url
-$url: '';
+// $url: '';
 
 // colors
 @function scale($color, $n: 0) {
@@ -24,7 +24,7 @@ $red: #af272f;
 $dark-red: scale($red, -30);
 
 #ga-maincontent h1 {
-	border: none;
+	border: none !important;
 }
 
 #ga-maincontent .dpu-logo {
@@ -63,10 +63,6 @@ $dark-red: scale($red, -30);
 
 html {
 	font-size: 140%;
-}
-
-#s4-bodyContainer [class^='container-1'] {
-	padding: 0;
 }
 
 .container {
@@ -262,6 +258,10 @@ video {
 	border: none !important;
 	color: $black;
 	#s4-bodyContainer {
+		
+		#ga-maincontent {
+			padding: 0;
+
 		.header-video {
 			display: block;
 		}
@@ -436,9 +436,9 @@ video {
 				transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1) !important;
 		}
 
-		#ga-maincontent {
-			padding: 0;
-		}
+
+
+		
 
 		.content-body {
 			margin-top: 0;
@@ -1140,6 +1140,9 @@ video {
 
 		.cdm-tri-panel {
 			position: relative;
+			* {
+				color: $white;
+			}
 		}
 
 		.cdm-tri-cover {
@@ -1159,9 +1162,6 @@ video {
 		.cdm-cover-helper {
 			position: relative;
 			height: 100%;
-			* {
-				color: $white;
-			}
 		}
 
 		.cdm-tri-cover h5 {
@@ -2355,5 +2355,5 @@ video {
 		.kgsb-faq-header:after {
 			top: 16px;
 		}
-	}
+	}}
 }

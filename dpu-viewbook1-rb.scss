@@ -1,7 +1,7 @@
 // local url
-// $url: 'https://resources.sptest16.depaul.edu';
+$url: 'https://resources.sptest16.depaul.edu';
 // prod url
-$url: '';
+// $url: '';
 
 // colors
 @function scale($color, $n: 0) {
@@ -24,7 +24,7 @@ $red: #af272f;
 $dark-red: scale($red, -30);
 
 #ga-maincontent h1 {
-	border: none;
+	border: none !important;
 }
 
 #ga-maincontent .dpu-logo {
@@ -1117,6 +1117,7 @@ video {
 
 			.cdm-tri-panel {
 				position: relative;
+				* {color: $white}
 			}
 
 			.cdm-tri-cover {
@@ -1137,9 +1138,6 @@ video {
 			.cdm-cover-helper {
 				position: relative;
 				height: 100%;
-				* {
-					color: $white;
-				}
 			}
 
 			.cdm-tri-cover h5 {
