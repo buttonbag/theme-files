@@ -1,7 +1,7 @@
 // local url
-$url: 'https://resources.sptest16.depaul.edu';
+// $url: 'https://resources.sptest16.depaul.edu';
 // prod url
-// $url: '';
+$url: '';
 
 // colors
 @function scale($color, $n: 0) {
@@ -928,7 +928,7 @@ video {
 			}
 
 			.cdm-faq-header:hover {
-				background: $dark-red;
+				background: $dark-blue;
 			}
 
 			.cdm-faq-content {
@@ -1240,21 +1240,6 @@ video {
 				background-size: contain;
 			}
 
-			.cdm-program-faq .cdm-faq-header:nth-child(1) {
-				background: $blue;
-			}
-
-			.cdm-program-faq .cdm-faq-header:nth-child(3) {
-				background: $blue;
-			}
-
-			.cdm-program-faq .cdm-faq-header:nth-child(5) {
-				background: $blue;
-			}
-
-			.cdm-program-faq .cdm-faq-header:nth-child(7) {
-				background: $blue;
-			}
 
 			.caption-btn-1 {
 				position: absolute;

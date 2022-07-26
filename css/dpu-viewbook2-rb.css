@@ -429,7 +429,7 @@ video {
   }
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .start-today {
-  background: #7cbaff url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/start_today_bgB.jpg");
+  background: #7cbaff url("/viewbook/kgsb/PublishingImages/start_today_bgB.jpg");
   background-size: cover;
   padding: 60px 40px;
   display: none;
@@ -777,7 +777,7 @@ video {
   color: #0057b7;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-faq-header:hover {
-  background: #0057b7;
+  background: #0e4174;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .cdm-faq-content {
   padding: 54px 100px;
@@ -1093,7 +1093,7 @@ video {
   right: 32px;
   z-index: 8;
   top: 32px;
-  background: url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/accordion_arrow.png");
+  background: url("/viewbook/kgsb/PublishingImages/accordion_arrow.png");
   width: 32px;
   height: 24px;
   background-size: contain;
@@ -1195,15 +1195,15 @@ video {
   background-color: #7b1b21;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .fb {
-  background-image: url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/fb.png");
+  background-image: url("/viewbook/kgsb/PublishingImages/fb.png");
   margin-right: 16px;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .linkedin {
-  background-image: url("https://resources.sptest16.depaul.edu/viewbook/kgsb/PublishingImages/linkedin.png");
+  background-image: url("/viewbook/kgsb/PublishingImages/linkedin.png");
   margin-right: 16px;
 }
 .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .twitter {
-  background-image: url("https://resources.sptest16.depaul.edu/viewbook/cdm/PublishingImages/twitter2.png");
+  background-image: url("/viewbook/cdm/PublishingImages/twitter2.png");
 }
 @media (max-width: 50em) {
   .theme-dpu-blue1 #s4-bodyContainer #ga-maincontent .circle-stat.m0-b {
